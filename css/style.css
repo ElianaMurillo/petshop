@@ -1,0 +1,254 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lista{
+    display:flex;
+}
+
+.lista li{
+    padding:0 12px 0 0;
+    display:flex;
+    align-items:center;
+}
+
+.lista li span{
+    margin-right: 3px;
+}
+
+.config{
+    background-color: rgba(34, 34, 34, 1);
+    color: rgba(243, 243, 243, 1);
+    font-size:10px;
+    font-weight:400;
+    display:flex;
+    justify-content:space-between;
+    padding:4px 52px 4px 90px;
+}
+
+.barra_nav{
+    background-color: rgba(240, 168, 62, 1);
+    color: rgba(243, 243, 243, 1);
+    font-size:13px;
+    font-weight:400;
+    display:flex;
+    justify-content:space-between;
+    padding:20px 40px 20px 40px;
+}
+
+.nav_info{
+    display:flex;
+    align-items:center;
+}
+
+.fondo img{
+    min-width: 100%;
+}
+
+.fondo{
+    position:relative;
+}
+
+.mensaje-banner{
+    position:absolute;
+    right:12px;
+    bottom:40%;
+    text-align:center;   
+}
+
+.bienvenida{
+    font-weight:400;
+    font-size:30px;
+    background-color:rgba(255, 255, 255, 1);
+    border-radius:5px;
+    padding:10px;
+    margin-bottom:12px;
+}
+
+.fondo button{
+    background-color: rgba(240, 168, 62, 1);
+    border:none;
+    border-radius:5px;
+    padding: 15px 23px;
+    margin-top:12px;
+    font-size:16px;
+    color:white;
+}
+
+.productos-destacados{
+    display:flex;
+    flex-direction:column;
+}
+
+.productos-destacados img{
+    align-self:center;
+    padding:20px 0 5px 0;
+}
+
+.productos-destacados h1{
+    color:rgba(60, 35, 19, 1);
+    font-size:40px;
+    font-weight:700;
+    text-align:center;
+}
+
+.lista-productos{
+    color:rgba(102, 102, 102, 1);
+    font-weight: 400;
+    font-size: 15px;
+    text-align:center;
+}
+
+.lista-productos span{
+    margin:0 7px;
+}
+
+.lista-productos-destacados{
+    display:flex;
+    padding:49px 0 78px 0;
+    justify-content:space-around;
+}
+
+.producto{
+    color:rgba(60, 35, 19, 1);
+    font-weight: 500;
+    font-size: 15px;
+    text-align:center;
+}
+
+.precio{
+    color:rgba(240, 168, 62, 1);
+    font-weight: 500;
+    font-size: 15px;
+    text-align:center;
+}
+
+.contactenos{
+    display:flex;
+    justify-content:center;
+}
+
+.contactenos h2{
+    color:rgba(60, 35, 19, 1);
+    font-weight: 700;
+    font-size: 25px;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.contactenos p{
+    color:rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 9px;
+    background-color:rgba(60, 35, 19, 1);
+    padding:15px;
+    border-radius:15px;
+    margin:10px 0 10px 0;
+}
+
+.formulario{
+    min-width: 30%;
+}
+
+.botones-contactenos{
+    padding:41px 0 75px 0;
+    display:flex;
+    justify-content:center;
+}
+
+.btn-resetear{
+    background-color:rgba(138, 135, 135, 1);
+    border-radius:15px;
+    border:none;
+    padding:8px 25px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    margin-right:3px;
+}
+
+.btn-enviar{
+    background-color:rgba(240, 168, 62, 1);
+    border-radius:15px;
+    border:none;
+    padding:8px 33px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+    margin-left:3px;
+}
+
+.suscripcion{
+    display:flex;
+    background-color:rgba(240, 168, 62, 1);
+    align-items:center;
+    padding:20px 47px 20px 23px;
+    color:rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 20px;
+    justify-content:space-between;
+}
+
+.ingresar-correo{
+    color:rgba(160, 160, 160, 1);
+    font-weight: 400;
+    font-size: 9px;
+    background-color:rgba(255, 255, 255, 1);
+    border-radius: 15px;
+    padding:14px 148px 14px 8px;
+}
+
+.btn-suscribirme{
+    background-color:rgba(60, 35, 19, 1);
+    border-radius:15px;
+    border:none;
+    padding:12px 10px;
+    font-weight: 700;
+    font-size: 9px;
+    color: rgba(255, 255, 255, 1);
+    margin-left:5px;
+}
+
+.contacto-footer{
+    background-color:rgba(60, 35, 19, 1);
+    display:flex;
+    padding: 20px 70px 0 70px;
+    justify-content:space-between;
+}
+
+.footer-item{
+    display:flex;
+    padding-bottom:20px;
+}
+
+.footer-texto{
+    padding-left:25px;
+}
+
+.footer-item-ppal{
+    color:rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-item-second{
+    color:rgba(138, 135, 135, 1);
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.footer-logo{
+    align-self:center;
+}
+
+.derechos-reservados{
+    background-color:rgba(34, 34, 34, 1);
+    padding:4px 0;
+    color:rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 10px;
+    text-align:center;
+}
